@@ -16,7 +16,7 @@ public class PrintPrimeNumber {
 		System.out.println("Prime number beetween 1 to 100 are : ");
 		for(int i=1; i<=max_check;i++){
 			if(Is_prime(i)){
-				System.out.print(i + " ");
+				System.out.print(i + ", ");
 			}
 		}
 	}
